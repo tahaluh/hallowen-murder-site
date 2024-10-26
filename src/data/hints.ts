@@ -10,6 +10,7 @@ export enum HintsEnum {
   agorasodeus = "agorasodeus",
   caminhodastrevas = "caminhodastrevas",
   eisqueletal = "eisqueletal",
+  facecega = "facecega",
   luzdanoite = "luzdanoite",
   magiacruel = "magiacruel",
   puroosso = "puroosso",
@@ -31,6 +32,11 @@ export const hints: Hint[] = [
     key: HintsEnum.eisqueletal,
     route: Routes.hint(HintsEnum.eisqueletal),
     hint: "No pescoço da vítima são encontradas perfurações, características de um ataque de ...",
+  },
+  {
+    key: HintsEnum.facecega,
+    route: Routes.hint(HintsEnum.facecega),
+    hint: "Em um quarto trancado, pode-se ouvir um barulho de animais repetitivo e constante.",
   },
   {
     key: HintsEnum.luzdanoite,
