@@ -12,8 +12,8 @@ export type Character = {
 
 export const characters: Character[] = [
   {
-    id: "alessandro-pestilenti",
-    name: "Alessandro Pestilenti",
+    id: "aledrini-pestilenti",
+    name: "Aledrini Pestilenti",
     quote:
       "Com o artefato em mãos, finalmente poderei erradicar e curar a maldição, libertando-me de meu fardo sombrio.",
     species: "Doutor da Praga",
@@ -21,7 +21,7 @@ export const characters: Character[] = [
     motivation: "Curar antigas pragas.",
     actions:
       "Aplica poções e remédios com precisão cirúrgica. Fala com sotaque italiano.",
-    image: "/images/characters/alessandro-pestilenti.png",
+    image: "/images/characters/aledrini-pestilenti.png",
   },
   {
     id: "barbira-seawhisper",
