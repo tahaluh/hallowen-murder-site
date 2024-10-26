@@ -12,6 +12,7 @@ export enum HintsEnum {
   eisqueletal = "eisqueletal",
   luzdanoite = "luzdanoite",
   magiacruel = "magiacruel",
+  puroosso = "puroosso",
   sgmk = "sgmk",
 }
 
@@ -40,6 +41,11 @@ export const hints: Hint[] = [
     key: HintsEnum.magiacruel,
     route: Routes.hint(HintsEnum.magiacruel),
     hint: "Nas paredes do corretor, é encontrado um pedaço de metal antigo e enferrujado, sugere-se que seja uma ferramenta ou arma velha.",
+  },
+  {
+    key: HintsEnum.puroosso,
+    route: Routes.hint(HintsEnum.puroosso),
+    hint: "Em um buraco na entrada do castelo, um acorde secreto pode ser encontrado.",
   },
   {
     key: HintsEnum.sgmk,
