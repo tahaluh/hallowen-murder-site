@@ -10,6 +10,7 @@ export enum HintsEnum {
   agorasodeus = "agorasodeus",
   caminhodastrevas = "caminhodastrevas",
   eisqueletal = "eisqueletal",
+  ellobo = "ellobo",
   facecega = "facecega",
   luzdanoite = "luzdanoite",
   magiacruel = "magiacruel",
@@ -33,6 +34,11 @@ export const hints: Hint[] = [
     key: HintsEnum.eisqueletal,
     route: Routes.hint(HintsEnum.eisqueletal),
     hint: "No pescoço da vítima são encontradas perfurações, características de um ataque de ...",
+  },
+  {
+    key: HintsEnum.ellobo,
+    route: Routes.hint(HintsEnum.ellobo),
+    hint: "Um cachorro estranho e assustador é encontrado na cozinha, com olhos brilhantes e um colar com um pingente de lua, ele parece estar esperando por algo, ou alguém, então ele se vira e começa a FALAR.",
   },
   {
     key: HintsEnum.facecega,
