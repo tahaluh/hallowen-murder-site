@@ -15,6 +15,7 @@ export enum HintsEnum {
   magiacruel = "magiacruel",
   puroosso = "puroosso",
   sgmk = "sgmk",
+  "2ww2sw" = "2ww2sw",
 }
 
 export const hints: Hint[] = [
@@ -57,6 +58,11 @@ export const hints: Hint[] = [
     key: HintsEnum.sgmk,
     route: Routes.hint(HintsEnum.sgmk),
     hint: "Nas paredes do corretor, é encontrado um pedaço de metal antigo e enferrujado, sugere-se que seja uma ferramenta ou arma velha.",
+  },
+  {
+    key: HintsEnum["2ww2sw"],
+    route: Routes.hint(HintsEnum["2ww2sw"]),
+    hint: "Pŕoximo a uma janela aberta, pelos espalhados foram encontrados.",
   },
 ];
 
