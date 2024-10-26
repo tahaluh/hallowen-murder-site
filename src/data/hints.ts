@@ -40,7 +40,7 @@ export const hints: Hint[] = [
   {
     key: HintsEnum.magiacruel,
     route: Routes.hint(HintsEnum.magiacruel),
-    hint: "Nas paredes do corretor, é encontrado um pedaço de metal antigo e enferrujado, sugere-se que seja uma ferramenta ou arma velha.",
+    hint: "Escondida em uma estante da biblioteca, um osso esculpido com runas mágicas avançadas é encontrado emananando uma aura de poder.",
   },
   {
     key: HintsEnum.puroosso,
@@ -50,7 +50,7 @@ export const hints: Hint[] = [
   {
     key: HintsEnum.sgmk,
     route: Routes.hint(HintsEnum.sgmk),
-    hint: "Escondida em uma estante da biblioteca, um osso esculpido com runas mágicas avançadas é encontrado emananando uma aura de poder.",
+    hint: "Nas paredes do corretor, é encontrado um pedaço de metal antigo e enferrujado, sugere-se que seja uma ferramenta ou arma velha.",
   },
 ];
 
